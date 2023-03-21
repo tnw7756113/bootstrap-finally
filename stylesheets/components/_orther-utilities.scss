@@ -1,0 +1,53 @@
+.btnYellow {
+    color: #3A3A3A;
+    background-color: #F9C745;
+    border: 0;
+    text-decoration: none;
+    align-self: center;
+    display: inline-block;
+    padding: 8px 48px;
+    border-radius: 24px;
+    &:hover{
+        color: #3A3A3A;
+        box-shadow: 0px 3px 0px 0px #3A3A3A;
+    }
+}
+.btnOutlineBlack {
+    font-size: 20px;
+    color: #3A3A3A;
+    border: 1px solid #3A3A3A;
+    border-color: #3A3A3A;
+    text-decoration: none;
+    align-self: center;
+    display: inline-block;
+    padding: 8px 48px;
+    border-radius: 50rem;
+    &:hover {
+        color: #3A3A3A;
+        border: 1px solid #F9C745;
+        background-color: #F9C745;
+    }
+}
+.img-home {
+    background-image: url("/image/home_mobile.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 635px;
+    max-width: 100%;
+    margin-top: 65px;
+}
+@include media-breakpoint-up(lg) {
+    .img-home {
+        background-image: url('/image/home.png');
+        height: 810px;
+    }
+}
+.img-title-works {
+    background-image: url('/image/title01.png');
+    width: 250px;
+    height: 133px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
