@@ -11484,12 +11484,12 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
   .img-home {
-    background-image: url("../../image/home.png");
+    background-image: url("../image/home.png");
     height: 810px;
   }
 }
 .img-title-works {
-  background-image: url("../../image/title01.png");
+  background-image: url("../image/title01.png");
   width: 250px;
   height: 133px;
   text-indent: 101%;
@@ -11500,7 +11500,7 @@ textarea.form-control-lg {
 .fixed-btn-img {
   width: 140px;
   height: 153px;
-  background-image: url("../../image/btn.png");
+  background-image: url("../image/btn.png");
   background-repeat: no-repeat;
   text-indent: 101%;
   overflow: hidden;
@@ -11512,5 +11512,5 @@ textarea.form-control-lg {
   z-index: 1;
 }
 .fixed-btn-hover:hover .fixed-btn-img {
-  background-image: url("../../image/btn2.png");
+  background-image: url("../image/btn2.png");
 }/*# sourceMappingURL=all.css.map */
