@@ -1,5 +1,5 @@
 .img-home {
-    background-image: url("/image/home_mobile.png");
+    background-image: url("../../image/home_mobile.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -9,12 +9,12 @@
 }
 @include media-breakpoint-up(lg) {
     .img-home {
-        background-image: url('/image/home.png');
+        background-image: url('../../image/home.png');
         height: 810px;
     }
 }
 .img-title-works {
-    background-image: url('/image/title01.png');
+    background-image: url('../../image/title01.png');
     width: 250px;
     height: 133px;
     text-indent: 101%;
@@ -24,7 +24,7 @@
 .fixed-btn-img {
     width: 140px;
     height: 153px;
-    background-image: url('/image/btn.png');
+    background-image: url('../../image/btn.png');
     background-repeat: no-repeat;
     text-indent: 101%;
     overflow: hidden;
@@ -35,7 +35,7 @@
     z-index: 1;
     &:hover {
         .fixed-btn-img {
-            background-image: url('/image/btn2.png');
+            background-image: url('../../image/btn2.png');
         }
     }
 }
