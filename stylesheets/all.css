@@ -11473,7 +11473,7 @@ textarea.form-control-lg {
 }
 
 .img-home {
-  background-image: url("../../image/home_mobile.png");
+  background-image: url("../image/home_mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
