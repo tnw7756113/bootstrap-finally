@@ -640,8 +640,16 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
     // scss-docs-end utils-visibility
+    // 自定義
+    "background-size": (
+      property: background-size,
+      class: bs,
+      values: (
+        cover: cover
+      )
+    ),
   ),
   $utilities
 );
