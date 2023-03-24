@@ -5,7 +5,6 @@
     background-position: center center;
     height: 635px;
     max-width: 100%;
-    margin-top: 65px;
 }
 @include media-breakpoint-up(lg) {
     .img-home {
@@ -37,5 +36,21 @@
         .fixed-btn-img {
             background-image: url('../image/btn2.png');
         }
+    }
+}
+.img-banner {
+    height: 215px;
+    max-width: 100%;
+    background-image: url('../image/banner_service-sm.png');
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@include media-breakpoint-up(lg) {
+    .img-banner {
+        background-image: url('../image/banner.png');
+        height: 288px;
     }
 }
