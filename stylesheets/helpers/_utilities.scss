@@ -151,6 +151,7 @@ $utilities: map-merge(
       css-var: true,
       class: border-opacity,
       values: (
+        0:   0,
         10: .1,
         25: .25,
         50: .5,

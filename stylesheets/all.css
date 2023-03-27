@@ -4664,12 +4664,12 @@ textarea.form-control-lg {
   --bs-pagination-padding-x: 0.75rem;
   --bs-pagination-padding-y: 0.375rem;
   --bs-pagination-font-size: 1rem;
-  --bs-pagination-color: var(--bs-link-color);
+  --bs-pagination-color: #3A3A3A;
   --bs-pagination-bg: #fff;
   --bs-pagination-border-width: 1px;
   --bs-pagination-border-color: #dee2e6;
   --bs-pagination-border-radius: 0.375rem;
-  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-color: #F9C745;
   --bs-pagination-hover-bg: #e9ecef;
   --bs-pagination-hover-border-color: #dee2e6;
   --bs-pagination-focus-color: var(--bs-link-hover-color);
@@ -7493,6 +7493,10 @@ textarea.form-control-lg {
 
 .border-5 {
   --bs-border-width: 5px;
+}
+
+.border-opacity-0 {
+  --bs-border-opacity: 0;
 }
 
 .border-opacity-10 {
