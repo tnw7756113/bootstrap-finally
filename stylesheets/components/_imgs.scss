@@ -12,14 +12,7 @@
         height: 810px;
     }
 }
-.img-title-works {
-    background-image: url('../image/title01.png');
-    width: 250px;
-    height: 133px;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-}
+
 .fixed-btn-img {
     width: 140px;
     height: 153px;
@@ -53,4 +46,24 @@
         background-image: url('../image/banner.png');
         height: 288px;
     }
+}
+.img-banner-portfolio {
+    height: 135px;
+    max-width: 100%;
+    background-image: url('../image/title01.png');
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img-banner-adoption {
+    height: 135px;
+    max-width: 100%;
+    background-image: url('../image/title02.png');
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
