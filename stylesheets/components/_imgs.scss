@@ -1,14 +1,13 @@
-.img-home {
-    background-image: url('../image/home_mobile.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 635px;
+.bg-home {
     max-width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../image/home_mobile.webp');
+    height: 635px;
 }
 @include media-breakpoint-up(lg) {
-    .img-home {
-        background-image: url('../image/home.png');
+    .bg-home {
+        background-image: url('../image/home.webp');
         height: 810px;
     }
 }
@@ -16,7 +15,7 @@
 .fixed-btn-img {
     width: 140px;
     height: 153px;
-    background-image: url('../image/btn.png');
+    background-image: url('../image/btn.webp');
     background-repeat: no-repeat;
     text-indent: 101%;
     overflow: hidden;
@@ -27,43 +26,33 @@
     z-index: 1;
     &:hover {
         .fixed-btn-img {
-            background-image: url('../image/btn2.png');
+            background-image: url('../image/btn2.webp');
         }
     }
 }
-.img-banner {
-    height: 215px;
+.banner {
     max-width: 100%;
-    background-image: url('../image/banner_service-sm.png');
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
     background-repeat: no-repeat;
     background-position: center center;
 }
+.bg-service {
+    height: 215px;
+    background-image: url('../image/banner_service-sm.webp');
+}
 @include media-breakpoint-up(lg) {
-    .img-banner {
-        background-image: url('../image/banner.png');
+    .bg-service {
+        background-image: url('../image/banner.webp');
         height: 288px;
     }
 }
-.img-banner-portfolio {
+.bg-adoption {
     height: 135px;
-    max-width: 100%;
-    background-image: url('../image/title01.png');
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('../image/title02.webp');
 }
-.img-banner-adoption {
+.bg-portfolio {
     height: 135px;
-    max-width: 100%;
-    background-image: url('../image/title02.png');
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('../image/title01.webp');
 }
